@@ -18,3 +18,121 @@ pic {
    top: -174px;
 }
 
+#Дом_2 {
+    display: none
+}
+#Дом_3 {
+    display: none;
+}
+#Дом_4 {
+    display: none;
+}
+#Дом_5 {
+    display: none;
+}
+
+body {
+    overflow: hidden;
+    transition: 1s;
+    animation: day 20s ease-in-out infinite;
+}
+.leftWindow {
+    animation: leftwindows 20s ease-in-out infinite;
+}
+.rightWindow {
+    animation: rightwindows 20s ease-in-out infinite;
+}
+
+@keyframes day {
+    0% { background: #2F3C44; }
+   20% { background: #7CB3DD; }
+   50% { background: #9AC4E0; }
+   60% { background: #BC8990; }
+   80% { background: #425460; }
+  100% { background: #2F3C44; }
+}
+
+@keyframes leftwindows {
+    0% { fill: #5F7789; }
+   10% { fill: #8EB3CE; }
+   20% { fill: #97BEDB; }
+   50% { fill: #a7d4f5; }
+   60% { fill: #979AD8; }
+   69% { fill: #979AD8; }
+   70% { fill: #D8D57F; }
+   92% { fill: #D8D57F; }
+   93% { fill: #5F7789; }
+  100% { fill: #5F7789; }
+}
+
+@keyframes rightwindows {
+    0% { fill: #556B7A; }
+   10% { fill: #8EB3CE; }
+   20% { fill: #7C9DB5; }
+   50% { fill: #90B6D1; }
+   60% { fill: #8588BF; }
+   69% { fill: #8588BF; }
+   70% { fill: #B7B36C; }
+   92% { fill: #B7B36C; }
+   93% { fill: #556B7A; }
+  100% { fill: #556B7A; }
+}
+
+
+
+
+
+.waterBoard { animation: waterboards 20s ease-in-out infinite;}
+@keyframes waterboards {
+    0% { fill: #226977; }
+   20% { fill: #257482; }
+   50% { fill: #2e8da1; }
+   60% { fill: #657BA0; }
+  100% { fill: #226977; }
+}
+
+.waterOsnova1{animation: waterosnovs1 20s ease-in-out infinite;}
+.waterOsnova2{animation: waterosnovs2 20s ease-in-out infinite;}
+@keyframes waterosnovs1 {
+    0% { fill: #4498AF; }
+   15% { fill: #51B5D1; }
+   50% { fill: #56c3e2; }
+   60% { fill: #54BCD8; }
+  100% { fill: #4498AF; }
+}
+@keyframes waterosnovs2 {
+    0% { fill: #4194AD; }
+   50% { fill: #50B3CE; }
+   60% { fill: #4DAEC6; }
+  100% { fill: #4194AD; }
+}
+
+.waterShadow{animation: watershadows 20s ease-in-out infinite;}
+@keyframes watershadows {
+    0% { fill: #4194AD; }
+    50% {fill: #48A3BA;}
+    60% {fill: #3B8699;}
+    100% {fill:#4194AD;}
+}
+
+
+
+
+.gazon{animation: gazonanimation 20s ease-in-out infinite;}
+@keyframes gazonanimation {
+    0% { fill: #3D6033; }
+   20% { fill: #607A02; }
+   50% { fill: #769702; }
+   60% { fill: #768723; }
+  100% { fill: #3D6033; }
+}
+
+
+.road{animation: roadanimate 20s ease-in-out infinite;}
+@keyframes roadanimate {
+    0% { fill: #282D38; }
+   20% { fill: #434A5B; }
+   50% { fill: #495163; }
+   60% { fill: #3b4151; }
+  100% { fill: #282D38; }
+}
