@@ -1,0 +1,2 @@
+﻿var $drag = $('.move').draggabilly({})
+
